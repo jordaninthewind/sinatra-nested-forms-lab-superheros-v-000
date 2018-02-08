@@ -10,7 +10,7 @@
     <h2>Motto: <%= @team[:motto] %></h2>
     <br>
     <h1>Members:</h1>
-    <% @team[members].each do |el|%>
+    <% @team[:members].each do |el|%>
     <h2><%= el[:name] %></h2>
     <h2><%= el[:power] %></h2>
     <h2><%= el[:bio] %></h2>
